@@ -35,6 +35,6 @@ class HomeFragment : Fragment() {
                 viewModel.onNavigatedToSearch()
             }
         })
-        return view
+        return binding.root
     }
 }
